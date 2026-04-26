@@ -40,7 +40,7 @@ Resultado: **aceite técnico em <10s, zero perda de evidência, arquivamento aut
 ---
 
 ## 🏗️ Arquitetura & Stack
-```mermaid
+```
 graph LR
     A[ERP / Tablet / S3 / Pasta] -->|POST /ingest| B(FastAPI Gateway)
     B --> C{Roteamento}
